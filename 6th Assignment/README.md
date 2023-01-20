@@ -14,20 +14,13 @@ In this assignment I had to build a minimal BASIC interpreter. The programming l
 
 The line numbers at the beginning of the line establish the sequence of operations in a program and are executed in ascending numerical order starting at the lowest number. In this example program execution begins at line 10 which is a comment. Line 20 and 30 request two values from the user and LET statement is an example of an assignment in BASIC. There is no need for statements to be entered in order since the numbers indicate their relative position. Statements implemented in the minimal BASIC:
 <br>
-
-* &emsp; REM This statement is used for comments. Any text on the line after the keyword 
-REM is ignored.  
-* &emsp; LET This statement is BASIC’s assignment statement. The LET keyword is 
-followed by a variable name, an equal sign, and an expression. As in C++, the 
-effect of this statement is to assign the value of the expression to the variable, 
-replacing any previous value. In BASIC, assignment is not an operator and 
-may not be nested inside other expressions.  
-* &emsp; PRINT In minimal BASIC, the PRINT statement has the form:  
-PRINT exp where exp is an expression. The effect of this statement is to print the value of 
+__
+* &emsp; REM, This statement is used for comments.
+* &emsp; LET, This statement is BASIC’s assignment statement.  
+* &emsp; PRINT, The effect of this statement is to print the value of 
 the expression on the console and then print a newline character so that the 
 output from the next PRINT statement begins on a new line.  
-* &emsp; INPUT In the minimal version of the BASIC interpreter, the INPUT statement has the 
-form: INPUT var where var is a variable read in from the user. The effect of this statement is to 
+* &emsp; INPUT, The effect of this statement is to 
 print a prompt consisting of the string " ? " and then to read in a value to be 
 stored in the variable.
 * &emsp; GOTO This statement has the syntax
@@ -42,5 +35,5 @@ as in the GOTO statement. If not, the program continues on to the next line.
 * &emsp; END Marks the end of the program. Execution halts when this line is reached. This 
 statement is usually optional in BASIC programs because execution also stops 
 if the program continues past the last numbered line.
-
+__
 
