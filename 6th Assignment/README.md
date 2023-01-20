@@ -35,5 +35,18 @@ statement or continues past the last statement in the program.
 *  __HELP__, This command provides a simple help message describing your interpreter.
 *  __QUIT__, Typing QUIT exits from the BASIC interpreter by calling exit(0).
 <br>
+<br>
 
+*  __REM__, This statement is used for comments.
+*  __LET__, This statement is BASIC’s assignment statement.  
+*  __PRINT__, The effect of this statement is to print the value of 
+the expression on the console and then print a newline character so that the 
+output from the next PRINT statement begins on a new line.  
+*  __INPUT__, The effect of this statement is to 
+print a prompt consisting of the string " ? " and then to read in a value to be 
+stored in the variable.
+*  __GOTO__, This statement forces an unconditional change in the control flow of the program.  
+*  __IF__, This statement provides conditional control.
+*  __END__, Marks the end of the program. Execution halts when this line is reached. This statement is usually optional in BASIC programs because execution also stops if the program continues past the last numbered line.
+<br>
 
