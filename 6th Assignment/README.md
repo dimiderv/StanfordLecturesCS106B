@@ -28,12 +28,12 @@ stored in the variable.
 *  __END__, Marks the end of the program. Execution halts when this line is reached. This statement is usually optional in BASIC programs because execution also stops if the program continues past the last numbered line.
 <br>
 Commands to control the BASIC interpreter:<br>  
-* __RUN__, This command starts program execution beginning at the lowest-numbered line. Unless the flow is changed by GOTO and IF commands, statements are executed in line-number order. Execution ends when the program hits the END
+*  __RUN__, This command starts program execution beginning at the lowest-numbered line. Unless the flow is changed by GOTO and IF commands, statements are executed in line-number order. Execution ends when the program hits the END
 statement or continues past the last statement in the program.
-* __LIST__, This command lists the steps in the program in numerical sequence.
-* __CLEAR__, This command deletes the program so the user can start entering a new one.
-* __HELP__, This command provides a simple help message describing your interpreter.
-* __QUIT__, Typing QUIT exits from the BASIC interpreter by calling exit(0).
+*  __LIST__, This command lists the steps in the program in numerical sequence.
+*  __CLEAR__, This command deletes the program so the user can start entering a new one.
+*  __HELP__, This command provides a simple help message describing your interpreter.
+*  __QUIT__, Typing QUIT exits from the BASIC interpreter by calling exit(0).
 <br>
 
 
